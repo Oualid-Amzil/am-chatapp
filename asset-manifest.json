@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/am-chatapp/static/css/main.59aedc38.css",
+    "main.js": "/am-chatapp/static/js/main.2dd6dd76.js",
+    "static/media/DetailsImg.png": "/am-chatapp/static/media/DetailsImg.1f230b519ccfa8d35ef8.png",
+    "static/media/InfoImg.png": "/am-chatapp/static/media/InfoImg.b57489c688939da3f759.png",
+    "static/media/HeroImg-min.png": "/am-chatapp/static/media/HeroImg-min.5d09d31380c959e22043.png",
+    "index.html": "/am-chatapp/index.html",
+    "main.59aedc38.css.map": "/am-chatapp/static/css/main.59aedc38.css.map",
+    "main.2dd6dd76.js.map": "/am-chatapp/static/js/main.2dd6dd76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59aedc38.css",
+    "static/js/main.2dd6dd76.js"
+  ]
+}
