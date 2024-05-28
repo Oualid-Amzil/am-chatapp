@@ -1,0 +1,113 @@
+.herosection {
+  width: 100%;
+  height: 100%;
+  padding: 100px 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  position: relative;
+}
+
+.herosection__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 50px;
+}
+
+.herosection__title {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.herosection__title > h1 {
+  font-family: "Mulish", "sans-serif";
+  font-size: 85px;
+  font-weight: 800;
+  color: var(--sixth-color);
+  max-width: 600px;
+  line-height: 1.2;
+}
+
+.herosection__title > p {
+  font-family: "Lato", "sans-serif";
+  font-size: 18px;
+  color: #e1d7c6;
+}
+
+.herosection__buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.herosection__firstbutton,
+.herosection__secondbutton {
+  font-family: "Lato", "sans-serif";
+  font-size: 16px;
+  padding: 13px 50px;
+  border-radius: 30px;
+}
+
+.herosection__firstbutton {
+  background-color: var(--sixth-color);
+  color: var(--primary-color);
+}
+
+.herosection__secondbutton {
+  background-color: transparent;
+  border: 1px solid var(--sixth-color);
+  color: var(--sixth-color);
+}
+
+.herosection__right {
+  width: 50%;
+  height: 100%;
+}
+
+.herosection__right > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.herosection__label {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  padding: 10px 0 0 30px;
+  border-radius: 40px 40px 0 0;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  background-color: var(--sixth-color);
+}
+
+.dots__container {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.dots__container > img {
+  width: 50px;
+  height: 50px;
+}
+
+.dots__container > p {
+  font-family: "Lato", "sans-serif";
+  color: var(--fifth-color);
+  max-width: 250px;
+}
+
+.arrow {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(5, 63, 60, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px 0 0 20px;
+  color: var(--sixth-color);
+}

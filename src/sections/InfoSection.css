@@ -1,0 +1,78 @@
+.infosection {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.infosection__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.infosection__line {
+  width: 130px;
+  border: 2px solid var(--third-color);
+}
+
+.infosection__top > h2 {
+  font-family: "Mulish", "sans-serif";
+  font-size: 38px;
+  color: var(--third-color);
+}
+
+.infosection__top > p {
+  font-family: "Lato", "sans-serif";
+  font-size: 19px;
+  color: var(--fifth-color);
+  width: 645px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.infosection__top > button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-family: "Lato", "sans-serif";
+  font-size: 16px;
+  padding: 13px 50px;
+  border-radius: 30px;
+}
+
+.infosection__middle {
+  width: 100%;
+}
+
+.infosection__middle > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.infosection__bottom {
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.icon__container {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 20px;
+}
+
+.icon__container > img {
+  width: 60px;
+  height: 60px;
+}
+
+.icon__container > p {
+  font-family: "Lato", "sans-serif";
+  font-size: 17px;
+  color: var(--fifth-color);
+  width: 280px;
+}
