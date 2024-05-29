@@ -40,6 +40,25 @@
 .nav__right > ul > li {
   font-family: "Mulish", "sans-serif";
   color: var(--sixth-color);
+
+  padding-bottom: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav__right > ul > li::after {
+  content: "";
+  background-color: var(--sixth-color);
+  width: 0;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav__right > ul > li:hover::after {
+  width: 100%;
+  transition: all 250ms ease;
 }
 
 .nav__right > button {
@@ -47,4 +66,12 @@
   padding: 10px 20px;
   border-radius: 10px;
   color: var(--sixth-color);
+  cursor: pointer;
+}
+
+.nav__right > button:hover {
+  background-color: var(--sixth-color);
+
+  color: var(--primary-color);
+  transition: all 250px ease;
 }
